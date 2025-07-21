@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeDee - Luxury Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Logo -->
+            <div class="logo">
+                 <img src="index/logo.jpeg" alt="TEEDEE" class="logo-image" style="height: 50px;">
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links desktop-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="collections.html">Collections</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <!-- Right Icons -->
+            <div class="nav-icons">
+                <button class="nav-icon-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="nav-icon-btn">
+                    <i class="fas fa-user"></i>
+                </button>
+                <button class="nav-icon-btn cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-content">
+                <a href="#home">Home</a>
+                <a href="collections.html">Collections</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <img src="index/owner2.jpeg" alt="TeeDee Hero" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">TeeDee</h1>
+            <p class="hero-subtitle">Classic. Refined. Unforgettable</p>
+            <div class="hero-buttons">
+                <a href="collections.html" class="btn btn-primary">Explore Collections</a>
+                <a href="about.html" class="btn btn-secondary">About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="featured-collections">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Best Sellers</h2>
+                <p class="section-subtitle">Discover our carefully curated selections that embody the essence of modern luxury</p>
+            </div>
+
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="index/brand1.jpeg" alt="Fury hoodie">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-content">
+                        <h3 class="collection-title">Fury hoodie</h3>
+                        <p class="collection-subtitle">Winter</p>
+                    </div>
+                </div>
+
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="index/brand2.jpeg" alt="Urban Sophistication">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-content">
+                        <h3 class="collection-title">Fury Style</h3>
+                        <p class="collection-subtitle">Summer Vibes</p>
+                    </div>
+                </div>
+
+                <div class="collection-card">
+                    <div class="collection-image">
+                        <img src="index/brand3.jpeg" alt="Longitude Jackets">
+                        <div class="collection-overlay"></div>
+                    </div>
+                    <div class="collection-content">
+                        <h3 class="collection-title">Longitude Jacket</h3>
+                        <p class="collection-subtitle">Jackets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Preview -->
+    <section class="brand-story">
+        <div class="container">
+            <div class="brand-story-content">
+                <div class="brand-story-text">
+                    <h2 class="section-title">Our Heritage</h2>
+                    <p class="brand-story-description">
+                        Born from a vision to redefine high-end fashion, TeeDee blends contemporary design with timeless 
+                        craftsmanship. Each creation is more than clothing, it’s a statement of artistry, purpose, and
+                        passion. 
+                    </p>
+                    <p class="brand-story-description">
+                        In July 2024, TeeDee proudly showcased a standout dress at the prestigious Durban July Fashion Experience, 
+                        earning a spot in the semi-finals. This milestone not only affirmed our design excellence but also marked 
+                        our arrival on South Africa’s premier fashion stage.
+                    </p>
+                    <a href="about.html" class="btn btn-dark">Discover Our Story</a>
+                </div>
+                <div class="brand-story-image">
+                    <img src="index/brand.jpeg" alt="Brand Heritage">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+
+
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What They Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-quote">
+                        "TeeDee has redefined my understanding of luxury. Each piece is a masterpiece."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <p class="author-name">Siyanda Gumede</p>
+                        <p class="author-title">Fashion Editor</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-quote">
+                        "The attention to detail and craftsmanship is unparalleled. Truly exceptional quality."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <p class="author-name">Thabo Ndabezitha</p>
+                        <p class="author-title">Style Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Join Our Circle</h2>
+                <p class="newsletter-description">
+                    Be the first to discover new collections, exclusive events, and insider access to the world of TeeDee
+                </p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                    <button type="submit" class="btn btn-light">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">TEEDEE</span>
+                    </div>
+                    <p class="footer-description">
+                        Redefining luxury through timeless elegance and contemporary design.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/teedee_clothing_sa/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/TumelozDezignz/" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Collections</h3>
+                    <ul class="footer-links">
+                        <li><a href="collections.html">Hoodies</a></li>
+                        <li><a href="collections.html">T-Shirt</a></li>
+                        <li><a href="collections.html">Hats</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Shipping</a></li>
+                        <li><a href="contact.html">Returns</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 TeeDee. All rights reserved. Designed by Lubelo Tech Solutions.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
